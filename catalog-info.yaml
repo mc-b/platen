@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: platen
+  namespace: mc-b
+  description: 'Kurs: Platform Engineering mit Backstage.io: Einführung und Anwendung'
+  tags:
+  - containers
+  - docker
+  - kubernetes
+  - microk8s
+  - podman
+  - cloud-native
+  - digicomp
+  - education
+  links:
+  - url: https://github.com/mc-b/platen
+    title: Repository
+    icon: github
+  annotations:
+    github.com/project-slug: mc-b/platen
+    backstage.io/source-location: url:https://github.com/mc-b/platen
+    # backstage.io/techdocs-ref: url:https://github.com/mc-b/platen
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:mc-b/mc-b
+  dependsOn:
+  - component:mc-b/lerncloud 
