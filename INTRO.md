@@ -20,6 +20,6 @@ Beispiele
 
 Die Umgebung beinhaltet eine Vielzahl von Beispielen als Juypter Notebooks. Die Jupyter Lab Oberfläche ist wie folgt erreichbar:
 
-    http://${fqdn}:32188/lab/tree/platen    - Jupyter Lab Oberfläche
+    http://${fqdn}:33188/lab/tree/platen    - Jupyter Lab Oberfläche
     http://${control}:9999                  - GitLab (User: root, Password: sudo cat /etc/gitlab/initial_root_password  | grep Password:)
     
