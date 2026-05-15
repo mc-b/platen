@@ -28,6 +28,15 @@ Terraform verwendet [Multipass](https://multipass.run/) um mehrere VMs zu erstel
 
 Nach erfolgreicher Installation werden weitere Informationen für den Zugriff auf die VMs angezeigt.
 
+### Deployment auf lernvirt Umgebungen
+  
+    cd lernvirt
+    helm install platen . -n platen --create-namespace -f ${HELM_VALUES_HOST} -f ../platen/lernvirt-values.yaml 
+    
+Deinstallation
+    
+    helm uninstall platen -n platen && kubectl delete ns platen
+
 ### Beispiele und Übungen
 
 * [Jupyter Notebooks](data/jupyter/)
