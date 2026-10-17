@@ -1,14 +1,16 @@
-# Beispiele zum Kurs: [Platform Engineering mit Backstage.io: Einführung und Anwendung](https://www.digicomp.ch/d/platen)
+# Beispiele zum Kurs: [Souveränes Platform Engineering mit Kubernetes](https://www.digicomp.ch/d/platen)
 
-Steigern Sie die Effizienz Ihrer Entwickler- und Plattformteams mit einer massgeschneiderten Plattform auf Basis von backstage.io, die zentralisiert, erweiterbar und optimal auf Ihre Organisation ausgerichtet ist.
+Nutze Kubernetes, Backstage und OpenChoreo für souveränes Platform Engineering. Lerne, wie integrierte Developer Platforms aufgebaut sind und erfahre, wie du durch offene Standards Kontrolle und Portabilität sicherstellst.
 
 ### Lernziele
 
-* Implementieren und Anpassen von Backstage als IDP
-* Registrieren und Verwalten eigener Softwarekomponenten im Katalog
-* Erstellen und Pflegen von Dokumentationen mit TechDocs
-* Integrieren der CI/CD-Pipelines und anderer Tools über Plugins
-* Verbessern der Developer Experience in der eigenen Organisation
+* Einordnen der Entwicklung von DevOps zu Platform Engineering
+* Beurteilen der Prinzipien einer souveränen Developer Platform
+* Nutzen von Kubernetes als offene Basis für Platform Engineering
+* Gestalten von Golden Paths und Self-Service für Entwicklungsteams
+* Einsetzen von Backstage als zentralen Developer Hub
+* Einordnen von OpenChoreo als integrierte Developer Platform
+* Reduzieren von Vendor Lock-in und gezieltes Fördern der Portabilität
 
 ### Quick Start
 
