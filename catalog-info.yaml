@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: platen
   namespace: mc-b
-  description: 'Kurs: Platform Engineering mit Backstage.io: Einführung und Anwendung'
+  description: 'Kurs: Souveränes Platform Engineering mit Kubernetes'
   tags:
   - containers
   - docker
